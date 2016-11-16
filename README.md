@@ -59,10 +59,15 @@ Checklist for doing a code review
 ## Finalizing
 - Sign of the pull request
 
-# Reference
-https://github.com/thoughtbot/guides/tree/master/code-review
-https://medium.freecodecamp.com/code-briefing-what-does-it-mean-when-code-is-easy-to-reason-about-64453e71b751#.f0136qxo3
-https://codetrips.com/2015/01/25/do-not-allow-bad-smells-in-your-code/
-https://medium.com/@f8/writing-great-git-commit-messages-a-revision-b86311c610e#.b114xxhjv
-https://medium.com/@mrjoelkemp/giving-better-code-reviews-16109e0fdd36
-https://rainsoft.io/coding-like-shakespeare-practical-function-naming-conventions/
+# References
+[Code Review](https://github.com/thoughtbot/guides/tree/master/code-review)
+
+[Code Briefing: What does it mean when code is “easy to reason about”?](https://medium.freecodecamp.com/code-briefing-what-does-it-mean-when-code-is-easy-to-reason-about-64453e71b751#.f0136qxo3)
+
+[Do Not Allow Bad Smells In Your Code](https://codetrips.com/2015/01/25/do-not-allow-bad-smells-in-your-code/)
+
+[Writing Great Git Commit Messages; A Revision](https://medium.com/@f8/writing-great-git-commit-messages-a-revision-b86311c610e#.b114xxhjv)
+
+[Giving better code reviews](https://medium.com/@mrjoelkemp/giving-better-code-reviews-16109e0fdd36)
+
+[Coding like Shakespeare: practical function naming conventions](https://rainsoft.io/coding-like-shakespeare-practical-function-naming-conventions/)
