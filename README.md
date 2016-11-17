@@ -1,25 +1,25 @@
 # Code Review
 Checklist for doing a code review
 
-# Phase 1: The light pass
+# Phase 1: The Light Pass
 ## General
 - Adding comments: Be polite and constructive
 - Correct use of code formatter
-- Line indentation char ar line breaks
+- Line indentation char and line breaks
 - Only required files are changed
 - Verify comments in source
-- Check static dode analysis results
-- Disagrement between code and specification
+- Check static code analysis results
+- Disagreement between code and specification
 - Max usage of static compiler checking
 - Optimistic and undefensive programming
 
-## Unclear or messy
+## Unclear Or Messy
 - Verify correct and meaningful naming
 - Magic numbers and values
 - Variables used for more than one purpose
 - Design principles: DRY, SOLID, GRASP, YAGNI
 - Variable, method and class scope
-- Method signture
+- Method signature
 - Packing too much into one line
 - Long Method
 - Cyclomatic complexity
@@ -31,21 +31,21 @@ Checklist for doing a code review
 - Object contract errors (equals and hashCode)
 - Exposure of immutable data types
 
-## Gerrit commit message
+## Git Commit Message
 - All details are included
 - Describe what and why it has changed
 
-# Phase 2: The contextual pass
-## Code structure
-- Understanability of written
+# Phase 2: The Contextual Pass
+## Code Structure
+- Understandability of written
 - Logical errors
 - Wrong usage of implementation patterns
-- Alternative implementations that increase simplicity, readability or maintinability
+- Alternative implementations that increase simplicity, readability or maintainability
 - Check edge cases in functions
 - Better approach to use a framework, library or class
-- Look for ommissions: Shouldn't this component also do X?
+- Look for omissions: Shouldn't this component also do X?
 
-## External systems
+## External Systems
 - Reduce amount of calls / Optimize calls to external systems
 
 ## Tests
@@ -54,7 +54,7 @@ Checklist for doing a code review
 - Enhancements to newly added tests
 
 ## Code-Review Commenting
-- Add comments for good code: Unusally ellegant solution, creative solution, great design,...
+- Add positive comments for good code: Unusally ellegant solution, creative solution, great design,...
 
 ## Finalizing
 - Sign of the pull request
