@@ -25,8 +25,9 @@ Checklist for doing a code review
 - Cyclomatic complexity
 
 ## Error Handling
-- Review error handling
-- Catch blogs must not only log error message
+- Avoid empty catch blogs
+- Error handler over-catches exceptions and aborts currently flow or application
+- Error handler is not implemented e.g. contains TODO, FIXME
 
 ## Java
 - Review class imports
@@ -62,6 +63,9 @@ Checklist for doing a code review
 
 ## Finalizing
 - Sign of the pull request
+
+# Additional Checklists
+[Internet Scale Services Checklist](https://gist.github.com/acolyer/95ef23802803cb8b4eb5)
 
 # References
 [Code Review](https://github.com/thoughtbot/guides/tree/master/code-review)
