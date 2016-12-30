@@ -24,6 +24,10 @@ Checklist for doing a code review
 - Long Method
 - Cyclomatic complexity
 
+## Error Handling
+- Review error handling
+- Catch blogs must not only log error message
+
 ## Java
 - Review class imports
 - Missuse of == and equals()
@@ -37,7 +41,7 @@ Checklist for doing a code review
 
 # Phase 2: The Contextual Pass
 ## Code Structure
-- Understandability of written
+- Understandability of written changes
 - Logical errors
 - Wrong usage of implementation patterns
 - Alternative implementations that increase simplicity, readability or maintainability
@@ -71,3 +75,5 @@ Checklist for doing a code review
 [Giving better code reviews](https://medium.com/@mrjoelkemp/giving-better-code-reviews-16109e0fdd36)
 
 [Coding like Shakespeare: practical function naming conventions](https://rainsoft.io/coding-like-shakespeare-practical-function-naming-conventions/)
+
+[Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
