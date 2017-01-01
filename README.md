@@ -26,7 +26,7 @@ Checklist for doing a code review
 
 ## Error Handling
 - Avoid empty catch blogs
-- Error handler over-catches exceptions and aborts currently flow or application
+- Error handler over-catches exceptions and aborts current flow or application
 - Error handler is not implemented e.g. contains TODO, FIXME
 
 ## Java
