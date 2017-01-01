@@ -1,5 +1,5 @@
 # Code Review
-Checklist for doing a code review
+Notes for a code review
 
 # Phase 1: The Light Pass
 ## General
