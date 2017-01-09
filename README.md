@@ -64,9 +64,6 @@
 ### Finalizing
 - Sign of the pull request
 
-## Additional Checklists
-[Internet Scale Services Checklist](https://gist.github.com/acolyer/95ef23802803cb8b4eb5)
-
 ## References
 [Code Review](https://github.com/thoughtbot/guides/tree/master/code-review)
 
