@@ -36,8 +36,8 @@
 - Exposure of immutable data types
 
 ### Git Commit Message
-- All details are included
-- Describe what and why it has changed
+- Verify correct format has been used
+- Describes what and why it has changed
 
 ## Phase 2: The Contextual Pass
 ### Code Structure
@@ -83,4 +83,6 @@
 
 [Software Architecture and Design](https://msdn.microsoft.com/en-us/library/ee658093.aspx)
 
-[YouTube: Core Design Principles for Software Developers by Venkat Subramaniam](https://www.youtube.com/watch?v=llGgO74uXMI)
+[YouTube: Core Design Principles for Software Developers](https://www.youtube.com/watch?v=llGgO74uXMI)
+
+[Properly Formatted commit messages](https://github.com/torvalds/subsurface-for-dirk/commit/b6590150d68df528efd40c889ba6eea476b39873)
