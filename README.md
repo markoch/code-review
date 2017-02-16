@@ -3,7 +3,6 @@
 ## Phase 1: The Light Pass
 
 ### General
-- Adding comments: Be polite and constructive
 - Code formatter has been used
 - Line indentation char and line breaks
 - Only required files are changed
@@ -51,6 +50,7 @@
 - Check edge cases in functions
 - Any better approach to use a framework, library or class exists?
 - Look for omissions: Shouldn't this component also do X?
+- Enough log statements to find bugs quickly
 
 ### External Systems
 - Reduce amount of calls / Optimize calls to external systems
@@ -61,6 +61,7 @@
 - Enhancements to newly added tests
 
 ### Code-Review Commenting
+- Adding comments: Be polite and constructive
 - Add positive comments for good code e.g. unusually elegant solution, creative solution, great design
 
 ### Finalizing
