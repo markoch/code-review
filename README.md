@@ -1,4 +1,4 @@
-# Source Code Review Sheet
+# Code Review
 
 ## Phase 1: The Light Pass
 
@@ -19,7 +19,7 @@
 - Minimized variable, method and class scopes
 - Method signature
 - Packing too much into one line
-- Long method
+- Complex IF conditions, IF instead of Switch
 - Cyclomatic complexity
 
 ### Error Handling
@@ -30,22 +30,20 @@
 ### Java
 - Review class imports
 - Wrong use of == and equals()
-- Wrong use of data types, like Arrays, List or Set
+- Wrong use of collection data types, like List instead of Set
 - Object contract errors (e.g. equals and hashCode)
 - Exposure of immutable data types
 
 ### Git Commit Message
-- Verify correct format has been used
 - Describes what and why it has changed
+- Verify correct format
 
 ## Phase 2: The Contextual Pass
 ### Code Structure
 - Understandability of written changes
 - No logical errors
 - Max usage of static compiler checking
-- Does not violate architecture guidelines
-- Does not violate design principles
-- Does not violate implementation patterns
+- Does not violate architecture guidelines, design principles or implementation patterns
 - Are there any alternative implementations that increase simplicity, readability or maintainability
 - Check edge cases in functions
 - Any better approach to use a framework, library or class exists?
@@ -56,9 +54,8 @@
 - Reduce amount of calls / Optimize calls to external systems
 
 ### Tests
-- Unit-tests and End2End Tests are added
+- Unit-tests and End 2 End Tests are added and test all functionality
 - Test coverage of changed lines and critical path
-- Enhancements to newly added tests
 
 ### Code-Review Commenting
 - Adding comments: Be polite and constructive
