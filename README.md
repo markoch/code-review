@@ -42,7 +42,7 @@
 ### Code Structure
 - Understandability of written changes
 - No logical errors
-- Max usage of static compiler checking
+- Max usage of static type compiler checking
 - Does not violate architecture guidelines, design principles or implementation patterns
 - Are there any alternative implementations that increase simplicity, readability or maintainability
 - Check edge cases in functions
