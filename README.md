@@ -22,7 +22,8 @@
 - Complex IF conditions, IF instead of Switch
 - Cyclomatic complexity
 
-### Error Handling
+### Error Handlingg
+- Use exceptions only for unexpected errors
 - Avoid empty catch blogs
 - Error handler over-catches exceptions and aborts current flow or application
 - Error handler is not implemented e.g. contains TODO, FIXME
@@ -84,3 +85,5 @@
 [YouTube: Core Design Principles for Software Developers](https://www.youtube.com/watch?v=llGgO74uXMI)
 
 [Information about properly formatted commit messages](https://github.com/torvalds/subsurface-for-dirk/commit/b6590150d68df528efd40c889ba6eea476b39873)
+
+[Replacing Throwing Exceptions with Notification in Validations](https://martinfowler.com/articles/replaceThrowWithNotification.html)
