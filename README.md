@@ -40,6 +40,16 @@
 - Verify correct format
 
 ## Phase 2: The Contextual Pass
+
+### Functional programming
+- Prefer immutability
+- Keep the side-effects minimal and perform them in a central place
+- Do not rely on global state
+- Plan for composing functions
+- Keep the method signature as simple as possible
+- Write generic functions
+- Avoid type specific functions
+
 ### Code Structure
 - Understandability of written changes
 - No logical errors
@@ -87,3 +97,5 @@
 [Information about properly formatted commit messages](https://github.com/torvalds/subsurface-for-dirk/commit/b6590150d68df528efd40c889ba6eea476b39873)
 
 [Replacing Throwing Exceptions with Notification in Validations](https://martinfowler.com/articles/replaceThrowWithNotification.html)
+
+[The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
