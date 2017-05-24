@@ -22,7 +22,7 @@
 - Complex IF conditions, IF instead of Switch
 - Cyclomatic complexity
 
-### Error Handlingg
+### Error Handling
 - Use exceptions only for unexpected errors
 - Avoid empty catch blogs
 - Error handler over-catches exceptions and aborts current flow or application
