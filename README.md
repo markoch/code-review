@@ -43,10 +43,10 @@
 
 ### Functional programming
 - Prefer immutability
-- Keep the side-effects minimal and perform them in a central place
+- Minimize side-effects and perform them in a central place
 - Do not rely on global state
 - Plan for composing functions
-- Keep the method signature as simple as possible
+- Keep method signatures as simple as possible
 - Write generic functions
 - Avoid type specific functions
 
