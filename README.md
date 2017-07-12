@@ -3,7 +3,7 @@
 ## Phase 1: The Light Pass
 
 ### General
-- Code formatter has been used
+- Code formatting has been used
 - Line indentation char and line breaks
 - Only required files are changed
 - Disagreement between code and specification
@@ -33,7 +33,7 @@
 - Wrong use of == and equals()
 - Wrong use of collection data types, like List instead of Set
 - Object contract errors (e.g. equals and hashCode)
-- Exposure of immutable data types
+- Exposure to immutable data types
 
 ### Git Commit Message
 - Describes what and why it has changed
